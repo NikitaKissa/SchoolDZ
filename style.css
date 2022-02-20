@@ -15,7 +15,7 @@ body{
     height: 400px;
     outline-color: #175ca9;
     text-align: left;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 /*div{*/
@@ -71,4 +71,5 @@ body{
     font-size: 19px;
     background-color: #114177;
     transition: 500ms;
+    cursor: pointer;
 }
