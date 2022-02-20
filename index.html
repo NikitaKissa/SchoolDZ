@@ -5,16 +5,43 @@
     <title>Title</title>
     <link type="text/css" rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="visualControl.js"></script>
 </head>
 <body>
+<div>
+    <div>
+        <textarea id="mailing-text"></textarea>
+    </div>
 
-<input id="mailing-text">
-<div class="select">
-    <p>Клас:</p>
-    <select>
-        <option>1</option>
-        <option>2</option>
-    </select>
+    <div id="sending-params">
+        <div class="select">
+            <h3>Предмет:</h3>
+            <select class="select-area" style="width: 95px">
+                <option>Математика</option>
+                <option>Українська мова</option>
+            </select>
+        </div>
+        <div class="select">
+            <h3>Клас:</h3>
+            <select class="select-area">
+                <option>1</option>
+                <option>2</option>
+            </select>
+        </div>
+        <div class="select">
+            <h3>Літера:</h3>
+            <select class="select-area">
+                <option>А</option>
+                <option>Б</option>
+                <option>В</option>
+                <option>Г</option>
+                <option>Д</option>
+            </select>
+        </div>
+    </div>
+</div>
+<div class="right-box">
+    <div id="names-panel"></div>
 </div>
 </body>
 </html>

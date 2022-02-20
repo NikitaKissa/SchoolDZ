@@ -1,25 +1,54 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
 body{
     font-family: sans-serif;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 #mailing-text{
-    width: 500px;
-    height: 200px;
+    width: 900px;
+    height: 400px;
     outline-color: #175ca9;
     text-align: left;
-    top:0px;
+    font-size: 16px;
 }
 
-div{
-    display: flex;
-    justify-content: center;
-}
+/*div{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*}*/
 
 .select{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.select-area{
+    width: 40px;
+    height: 25px;
+}
+
+#sending-params{
+    display: flex;
+    flex-direction: row;
+    margin: 1px;
+}
+
+#names-panel{
+    width: 200px;
+    height: 625px;
+    display: flex;
+    justify-content: left;
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+.right-box{
+    display: flex;
+    justify-content: right;
 }
