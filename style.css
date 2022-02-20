@@ -1,0 +1,25 @@
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#mailing-text{
+    width: 500px;
+    height: 200px;
+    outline-color: #175ca9;
+    text-align: left;
+    top:0px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+}
+
+.select{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
