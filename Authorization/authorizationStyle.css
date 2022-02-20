@@ -1,0 +1,24 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+
+body{
+    margin-top: 2px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    outline-color: #175ca9;
+    width: 400px;
+    height: 35px;
+    font-size: 23px;
+}
+
+p{
+    font-size: 15px;
+    transition: 800ms;
+}
