@@ -44,3 +44,20 @@ p{
     transition: 500ms;
     cursor: pointer;
 }
+
+#window{
+    background-color: #d3d3d3;
+    border-radius: 5px;
+    box-shadow: #000000;
+}
+
+#password-text{
+    margin-top: 20px;
+    margin-bottom: 1px;
+}
+
+.text-js{
+    font-size: 13px;
+    color: #175ca9;
+    transition: 800ms;
+}

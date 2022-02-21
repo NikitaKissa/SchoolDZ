@@ -1,6 +1,6 @@
 $(document).ready(function (){
-    $("#email-field").on("change", function (){
-        $("#email-text").animate("font-size: 13px", "fast");
+    $("#email-field").click( function (){
+        $("#email-text").addClass(".text-js");
     });
 
     $("#send-button").click(function (){
