@@ -46,9 +46,9 @@ p{
 }
 
 #window{
+    margin-top: 50px;
     background-color: #d3d3d3;
     border-radius: 5px;
-    box-shadow: #000000;
 }
 
 #password-text{
@@ -60,4 +60,8 @@ p{
     font-size: 13px;
     color: #175ca9;
     transition: 800ms;
+}
+
+#password-field, #email-field{
+    margin: 3px;
 }
