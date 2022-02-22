@@ -1,9 +1,4 @@
 $(document).ready(function (){
-    $("#email-field").click( function (){
-        $("#email-text").addClass(".text-js");
-    });
-
-    $("#send-button").click(function (){
-
-    });
+    const screenWidth = $(window).width();
+    $("#top-widow").css({width: screenWidth});
 });
