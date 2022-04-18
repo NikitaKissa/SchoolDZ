@@ -41,17 +41,14 @@ body{
 }
 
 #names-panel{
+    margin: 0px;
     width: 200px;
     height: 625px;
     display: flex;
+    flex-direction: column;
     justify-content: left;
+    justify-self: right;
     background-color: rgba(44, 143, 255, 0.5);
-}
-
-.right-box{
-    display: flex;
-    justify-content: right;
-    margin: 0;
 }
 
 #send-button{
